@@ -3,13 +3,13 @@ import { defineConfig } from '@/types/config';
 export default defineConfig({
   manifest: {
     id: '/',
-    name: 'My Blog',
-    short_name: 'My Blog',
-    description: 'My blog description goes here...',
+    name: 'SSC PRODIGY',
+    short_name: 'SSC PRODIGY',
+    description: 'SSC PRODIGY EXAM PREP',
     dir: 'auto',
     lang: 'en-US',
-    background_color: '#fff',
-    theme_color: '#fff',
+    background_color: '#F8FAFC',
+    theme_color: '#1E3A8A',
     display: 'standalone',
     orientation: 'natural',
     scope: '/',
@@ -43,5 +43,5 @@ export default defineConfig({
   },
 
   // Please replace with your blog url if you are using CDN (JsDelivr)
-  origin: 'https://blogger-pwa.blogspot.com',
+  origin: 'https://sscprodigy.blogspot.com/',
 });
